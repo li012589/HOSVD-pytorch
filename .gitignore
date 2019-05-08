@@ -1,0 +1,10 @@
+.cache
+**/*.*~
+**/*.pyc
+**/.DS_Store
+**/test.py
+**/*.testSave
+docs/_build
+data
+*.saving
+opt/*
