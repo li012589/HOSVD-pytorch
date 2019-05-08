@@ -14,13 +14,6 @@ def modalsvd(n,A):
     nA = unfolding(n,A)
     return torch.svd(nA)
 
-def shape2index(shape):
-    indexs = ""
-    assert len(shape) < 24
-    for i in range(len(shape)):
-        indexs = indexs + chr(97+i)
-    return indexs
-
 def hosvd(A):
     Ulist = []
     S = A
